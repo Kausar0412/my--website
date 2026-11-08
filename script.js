@@ -5,7 +5,7 @@ let photos = [
 ];
 let index = 0;
 function showPhoto() {
-    document.getElementById("photo").src =
+    document.getElementById("photos").src =
         photos[index];
     document.getElementById("number").innerHTML =
         (index + 1) + "-сурет";}
